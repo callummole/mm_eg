@@ -100,5 +100,5 @@ def gmm_em(x, n_clust, plot = True, iter = 100, tol = 1e-4):
 
 if __name__ == '__main__':
 	X = simulate_data(plot = True)
-	gmm_em(X, 2, plot = True)
+	fit = gmm_em(X, 2, plot = True)
 
